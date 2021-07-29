@@ -176,8 +176,8 @@ push @AddOns,'OperationCheck.js';		## 動作チェック ※本番では消し�
 #push @AddOns,'ok.js';					## OKアドオン [New]
 #push @AddOns,'okng.js';				## OKアドオン [New]
 #push @AddOns,'nospace.js';				## スペースのみの入力を無効
-#push @AddOns,'toggle.js';				## 入力欄の可変
-#push @AddOns,'cart/cart.js';			## ショッピングカート機能
+push @AddOns,'toggle.js';				## 入力欄の可変
+push @AddOns,'cart/cart.js';			## ショッピングカート機能
 #push @AddOns,'request/request.js';		## リクエスト機能
 #push @AddOns,'phase.js';				## 段階的入力機能
 #push @AddOns,'drilldown.js';			## ドリルダウン機能
@@ -193,7 +193,7 @@ push @AddOns,'OperationCheck.js';		## 動作チェック ※本番では消し�
 #push @AddOns,'submitdisabled.js';		## エラー時に送信ボタンを無効化
 #push @AddOns,'sizeajustdisabled.js';	## 入力欄の自動調整機能を無効化
 #push @AddOns,'defaultValue.js';		## 初期値を無効
-#push @AddOns,'estimate.js';			## 見積計算(ベータ版)
+push @AddOns,'estimate.js';			## 見積計算(ベータ版)
 #push @AddOns,'beforeunload.js';		## ページを離脱する際のアラート(ベータ版)
 #push @AddOns,'setValue.js';			## 初期値をセット
 #push @AddOns,'errorScroll.js';			## エラー時に対象エレメントまでスクロール(ベータ版)
@@ -223,7 +223,7 @@ push @AddOns,'smoothScroll.js';			## モバイル端末エラー時のスクロ�
 #push @AddOns,'onetimetoken/onetimetoken.js';	## [New] ワンタイムトークン
 #push @AddOns,'numticket.js';					## [New] 順番待ち受付システム
 #push @AddOns,'yearmonth.js';					## [New] 年月選択補助
-#push @AddOns,'estimate/estimate.js';			## [New] 見積リスト機能
+push @AddOns,'estimate/estimate.js';			## [New] 見積リスト機能
 #push @AddOns,'ticket/ticket.js';			## [New] 座席予約システム
 
 
